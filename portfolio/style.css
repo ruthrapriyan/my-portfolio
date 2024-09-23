@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    background-color: #081b29;
+}
+#head{
+    background-color: #081b21;
+    position: fixed;
+    z-index: 30;
+    width: 100%;
+}
+.logo{
+    color: whitesmoke;
+    font-size: 30px;
+    font-stretch: expanded;
+    font-weight: bold;
+    margin-left: 25px;
+    padding: 20px;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;   
+    justify-content: right;
+    margin-right: 50px;
+   
+}
+.navbar ul li{
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+.navbar ul :hover{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all .5s ease-in;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+#sixthinternship div h1{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    background-color: #081b21;
+}
+.internship{
+    display: flex;
+    flex-direction: row;
+}
+.internimg{
+    margin: 100px;
+    border-radius: 10px; 
+    border: 4px solid rgba(227, 215, 215, 0.596);
+    transition: transform 1s;
+}
+.internimg a{
+    text-decoration: none;
+}
+.internimg a img{
+  opacity: 0.3;   
+}
+.internimg:hover{
+    transform: translateY(-30px);
+    transition-duration: 1s;
+}
+.interndesc{
+    color: whitesmoke;
+    background-color: #081b21;
+    font-size: 25px;
+    margin:100px;
+    margin-left: 16px;
+    margin-right: 120px;
+    padding: 50px;
+    transition: transform 1s;
+}
+.interndesc:hover{
+    transform: translateY(-30px);
+    transition-duration: 1s;
+}
+.imgview{
+    color: whitesmoke;
+    position: absolute;
+    font-weight: 600;
+    z-index: -1;
+}
+
+ 

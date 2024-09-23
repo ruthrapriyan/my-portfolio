@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+#fourthskills div h1{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    background-color: #081b21;
+}
+.split{
+    display: flex;
+    flex-direction: row;
+}
+
+.programming{
+    height: 300px;
+    width: 300px;
+    background-color: #081b21;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+    transition: transform 1s;
+
+}
+.tools{
+    height: 300px;
+    width: 300px;
+    background-color: #081b21;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+    transition: transform 1s;
+}
+.webpages{
+    height: 300px;
+    width: 300px;
+    background-color: #081b21;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+    transition: transform 1s;
+}
+.slist{
+    padding-top: 20px;
+    text-align: left;
+    font-weight: 300;
+}
+.programming:hover{
+    transform:translateY(-30px);
+    transition-duration: 1s;
+}
+.tools:hover{
+    transform:translateY(-30px);
+    transition-duration: 1s;
+}
+.webpages:hover{
+    transform:translateY(-30px);
+    transition-duration: 1s;
+}
